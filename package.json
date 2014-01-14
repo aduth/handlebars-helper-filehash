@@ -9,7 +9,7 @@
     "email": "andrew@andrewduthie.com"
   },
   "scripts": {
-    "test": "node -e 'var g = require(\"grunt\"); g.cli.tasks = [\"test\"]; g.cli()'"
+    "test": "node -e \"require('grunt').tasks('test');\""
   },
   "repository": {
     "type": "git",
