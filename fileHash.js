@@ -1,5 +1,4 @@
 /*! handlebars-helper-filehash 1.0.0 | Copyright 2014 Andrew Duthie | MIT License */
-
 var crypto = require('crypto'),
   fs = require('fs');
 
