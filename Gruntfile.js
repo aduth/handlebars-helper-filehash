@@ -27,7 +27,7 @@ module.exports = function(grunt) {
 
     watch: {
       files: [ 'fileHash.js', 'test/*.js' ],
-      tasks: [ 'release' ]
+      tasks: [ 'test' ]
     }
   });
 
